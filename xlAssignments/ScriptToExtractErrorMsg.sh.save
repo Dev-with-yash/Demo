@@ -1,0 +1,2 @@
+grep "ERROR" sample.log
+awk {print $0,$1,$2}

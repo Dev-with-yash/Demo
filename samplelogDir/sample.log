@@ -1,0 +1,10 @@
+2024-05-18 10:38:35 [INFO] Service apache2 restarted
+2024-05-18 10:39:47 [ERROR] SSL handshake failed
+2024-05-18 10:41:01 [INFO] Backup job started
+2024-05-18 10:42:13 [ERROR] User authentication failed for user guest
+2024-05-18 10:43:25 [INFO] Disk check completed without errors
+2024-05-18 10:44:37 [ERROR] Unable to fetch updates from repository
+2024-05-18 10:45:49 [INFO] Firewall rules updated
+2024-05-18 10:47:01 [ERROR] Database connection timeout
+2024-05-18 10:48:13 [INFO] User admin logged out
+2024-05-18 10:49:25 [ERROR] Out of memory error in process 2345
