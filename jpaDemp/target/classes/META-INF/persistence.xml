@@ -1,0 +1,30 @@
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+             http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
+	version="2.1">
+
+	<persistence-unit name="PERSISTENCE">
+		
+		<description>Hibernate JPA Crud Applicatio Demo</description>
+		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+		
+
+		<properties>
+			<property name="jakarta.persistence.jdbc.driver"
+				value="oracle.jdbc.driver.OracleDriver" />
+			<property name="jakarta.persistence.jdbc.url"
+				value="jdbc:oracle:thin:@localhost:1521:xe" />
+			<property name="jakarta.persistence.jdbc.user" value="system" />
+			<property name="jakarta.persistence.jdbc.password"
+				value="123456" />
+
+			<property name="hibernate.show_sql" value="true" />
+			<property name="hibernate.hbm2ddl.auto" value="update" />
+
+		</properties>
+
+	</persistence-unit>
+
+
+</persistence>
